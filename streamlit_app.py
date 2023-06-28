@@ -5,7 +5,7 @@ def get_coordinates(address):
     # Kakao API로부터 주소의 좌표 가져오기
     api_url = "https://dapi.kakao.com/v2/local/search/address.json"
     headers = {
-        "Authorization": "KakaoAK YOUR_API_KEY"  # 자신의 Kakao API 키로 대체해야 합니다.
+        "Authorization": "1fa41218d89ca5171b09edf71c513fda"  # 자신의 Kakao API 키로 대체해야 합니다.
     }
     params = {
         "query": address
